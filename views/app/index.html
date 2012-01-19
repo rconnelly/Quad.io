@@ -34,12 +34,17 @@
 <home:>
     <article id="intro">
         <section class="opening">
-            <h1>Quad.io</h1>
-            <p>Less Framework is a <abbr>CSS</abbr> grid system for designing adaptive web­sites. It contains 4 layouts and 3 sets of typography presets, all based on a single&nbsp;grid.</p>
+            <h1>You got a discount</h1>
+            <p>
+                <strong>Buy One Get One Free</strong><br />
+                Buy any sub and get one of equal or lesser value free on your next visit.
+            </p>
+            <p>
+                <a href="#" class="button">Save It</a>
+            </p>
         </section>
     </article>
 
- </intro:>
 
 <signin:>
     <article id="signin">
@@ -49,20 +54,21 @@
             <form action="post">
                 <input type="text" name="email" id="email" placeholder="Email" />
                 <input type="password" name="password" id="email" placeholder="Password" />
+                <button>Log In</button>
             </form>
         </section>
-        <section class="facebook">
-            {{> facebook}}
+        <section class="login">
+            {{> login}}
         </section>
     </article>
 
 
-<facebook:>
-    <div id="fb-login" class="fb_button" style="background-position: left -188px">
-        <a class="fb_button_medium" href="/auth/facebook">
-            <span id="fb_login_text" class="fb_button_text">Connect with Facebook</span>
-        </a>
-    </div>
+<login:>
+
+    <h3>Or log in with</h3>
+    <a href="/auth/facebook"><img src="img/facebook.png" alt="facebook">
+    <a href="/auth/google"><img src="img/google.png" alt="google">
+    <a href="/auth/twitter"><img src="img/twitter.png" alt="twitter">
 
 <Scripts:>
 

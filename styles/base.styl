@@ -1,5 +1,3 @@
-@import "./reset";
-
 /*	Less Framework 4
 	http://lessframework.com
 	by Joni Korpi
@@ -39,25 +37,20 @@ a img {border: 0;}
 	letter-spacing: -2px;
 }
 
-.huge, h1 {
-	font-size: 68px;
-	line-height: 72px;
-	letter-spacing: -1px;
-}
-
-.large, h2 {
+.large, article h1 {
 	font-size: 42px;
 	line-height: 48px;
+	margin: 0 0 24px;
 }
 
-.bigger, h3 {
+.bigger, h2 {
 	font-size: 26px;
-	line-height: 36px;
+	line-height: 50px;
 }
 
-.big, h4 {
+.big, article h3 {
 	font-size: 22px;
-	line-height: 30px;
+	line-height: 46px;
 }
 
 body {
@@ -89,13 +82,62 @@ px      68    160    252    344    436    528    620    712    804    896    */
 
 body {
 	width: 896px;
-	padding: 72px 48px 84px;
+	padding: 48px
 	background: rgb(232,232,232);
 	color: rgb(60,60,60);
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
 
+.nav-footer {
+    font-size: 20px
+    padding: 20px 0
+}
+
+border-radius()
+    -webkit-border-radius arguments
+    -moz-border-radius arguments
+    border-radius arguments
+
+transition()
+    -webkit-transition: arguments
+    -moz-transition: arguments
+    transition: arguments
+
+box-shadow()
+     -webkit-box-shadow: arguments
+     -moz-box-shadow: arguments
+     box-shadow: arguments
+
+highlight-color()
+    -webkit-tap-highlight-color: arguments
+
+a.button {
+    display: block;
+    padding: 11px 15px;
+    border: 1px solid rgb(195,195,195);
+    color: rgb(60,97,158);
+    highlight-color(rgba(0,0,0, 0));
+    box-shadow(inset 0 0 5px rgba(0,0,0, 0.05));
+    border-radius(3px);
+    transition(all 0.123s ease-out);
+}
+
+a.button:hover, a.button:active {
+    text-decoration: none;
+    border-color: rgb(158,158,158);
+    box-shadow(inset 0 0 8px rgba(0,0,0, 0.38));
+}
+
+a.button:active, .touched {
+    background: rgb(60,97,158);
+    border-color: rgb(23,37,60);
+    color: rgb(232,241,255);
+    text-shadow: 0 -1px 0 rgba(0,0,0, 0.9);
+    box-shadow(inset 0 0 12px rgba(0,0,0, 0.765));
+    box-shadow(inset 0 0 12px rgba(0,0,0, 0.765));
+    box-shadow(inset 0 0 12px rgba(0,0,0, 0.765));
+}
 
 /*		Tablet Layout: 768px.
 		Gutters: 24px.
@@ -127,7 +169,8 @@ px      68    160    252    */
 	
 	body {
 		width: 252px;
-		padding: 48px 34px 60px;
+		padding: 24px;
+        min-height: 432px;
 	}
 	
 }
@@ -146,7 +189,20 @@ px      68    160    252    344    436    */
 	
 	body {
 		width: 436px;
-		padding: 36px 22px 48px;
+		padding: 20px;
 	}
 	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
 }
