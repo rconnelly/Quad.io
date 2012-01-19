@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "main": "./server.js",
   "dependencies": {
+    "connect": ">=1.8.5",
     "derby": "*",
     "express": ">=2 <3",
     "connect-gzip": ">=0.1.5",
