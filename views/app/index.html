@@ -7,18 +7,20 @@
 <Head:>
     <meta charset="utf-8"/>
     <title></title>
-    <link rel="stylesheet" media="all" href=""/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
 
 
 <Body: lang="en">
-    {{> nav}}
-
-    {{> intro}}
 
     {{signinVisible > signin}}
     {{homeVisible > home}}
+
+    <footer>
+    {{> nav}}
+    </footer>
+
 
 <nav:>
     {{pages > navitem}}
@@ -30,50 +32,31 @@
         <a href={{url}}>{{title}}</a>{{^last}} | {{/}}
     {{/}}
 
-<intro:>
+<home:>
     <article id="intro">
         <section class="opening">
-            <h1>What It Is</h1>
+            <h1>Quad.io</h1>
             <p>Less Framework is a <abbr>CSS</abbr> grid system for designing adaptive web­sites. It contains 4 layouts and 3 sets of typography presets, all based on a single&nbsp;grid.</p>
-        </section>
-        <section class="content">
-            <button class="skip">Skip</button>
         </section>
     </article>
 
-    <footer>
-        {{> facebook}}
-    </footer>
  </intro:>
 
 <signin:>
-    <div id="container">
-        <header>
-            Sign In
-        </header>
-        <div id="main" role="main">
-            Main Content
-        </div>
+    <article id="signin">
+        <section class="opening">
+            <h1>Sign In</h1>
 
-        <footer>
-            Footer
-        </footer>
-    </div>
-    
-<home:>
-    
-  <div id="container">
-    <header>
-        Home
-    </header>
-    <div id="main" role="main">
-      Main Content
-    </div>
+            <form action="post">
+                <input type="input" name="email" id="email" placeholder="Email" />
+                <input type="password" name="password" id="email" placeholder="Password" />
+            </form>
+        </section>
+        <section class="facebook">
+            {{> facebook}}
+        </section>
+    </article>
 
-    <footer>
-        Footer
-    </footer>
-  </div>
 
 <facebook:>
     <div id="fb-login" class="fb_button" style="background-position: left -188px">
