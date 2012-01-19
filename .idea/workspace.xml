@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e41652c-74fd-4a71-89ea-28db284ff6e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/libs/modernizr-custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/libs/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/quad.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/app/code.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/app/shared.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/server/everyauth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/authentication/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/app/index.js" afterPath="$PROJECT_DIR$/lib/app/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/server/index.js" afterPath="$PROJECT_DIR$/lib/server/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/app/index.styl" afterPath="$PROJECT_DIR$/styles/app/index.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/reset.styl" afterPath="$PROJECT_DIR$/styles/reset.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/app/index.html" afterPath="$PROJECT_DIR$/views/app/index.html" />
     </list>
     <ignored path="Quad.io.iws" />
@@ -38,34 +32,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="9" selection-start="1725" selection-end="1725" vertical-scroll-proportion="-17.541666">
+            <state line="27" column="20" selection-start="1371" selection-end="1371" vertical-scroll-proportion="-16.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/authentication/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/app/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="52" selection-start="268" selection-end="268" vertical-scroll-proportion="0.24161074">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/h5bp-mobile-boilerplate-05399c4/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="114" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.styl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/base.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="0.0">
+            <state line="66" column="0" selection-start="1866" selection-end="1866" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,16 +59,7 @@
       <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reset.styl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/reset.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="300" column="28" selection-start="7513" selection-end="7513" vertical-scroll-proportion="0.0">
+            <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,16 +68,43 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/server/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="40" selection-start="1917" selection-end="1917" vertical-scroll-proportion="-13.269231">
+            <state line="8" column="34" selection-start="294" selection-end="294" vertical-scroll-proportion="3.4615386">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.styl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/app/index.styl">
+      <file leaf-file-name="everyauth.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/server/everyauth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+            <state line="2" column="33" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.1538461">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node_modules/everyauth/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conf.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facebook.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/everyauth/lib/modules/facebook.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +137,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/app/shared.html" />
         <option value="$PROJECT_DIR$/lib/app/code.js" />
-        <option value="$PROJECT_DIR$/lib/server/index.js" />
         <option value="$PROJECT_DIR$/views/app/code.html" />
         <option value="$PROJECT_DIR$/public/js/quad.js" />
         <option value="$PROJECT_DIR$/styles/app/index.css" />
@@ -142,13 +144,17 @@
         <option value="$PROJECT_DIR$/styles/reset.styl" />
         <option value="$PROJECT_DIR$/styles/app/index.styl" />
         <option value="$USER_HOME$/Downloads/h5bp-mobile-boilerplate-05399c4/index.html" />
-        <option value="$PROJECT_DIR$/views/app/index.html" />
+        <option value="$PROJECT_DIR$/conf.js" />
         <option value="$PROJECT_DIR$/lib/app/index.js" />
+        <option value="$PROJECT_DIR$/views/app/index.html" />
+        <option value="$PROJECT_DIR$/lib/server/everyauth.js" />
+        <option value="$PROJECT_DIR$/lib/server/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="-4" />
+    <option name="y" value="108" />
     <option name="width" value="1680" />
     <option name="height" value="1024" />
   </component>
@@ -219,6 +225,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="authentication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quad.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -233,7 +257,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,61 +271,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quad.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="everyauth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,14 +398,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
+    <frame x="-4" y="108" width="1680" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2124321" sideWeight="0.85303867" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14696133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2148461" sideWeight="0.66629833" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33370167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48176795" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -504,73 +478,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/connect-gzip/test/staticGzip.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/app/code.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/derby/node_modules/racer/node_modules/share/test/browser/nodeunit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="586" column="10" selection-start="20074" selection-end="20074" vertical-scroll-proportion="11.950208" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/quad.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/boilerplate-initializr-2.1/js/plugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/boilerplate-initializr-2.1/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/boilerplate-initializr-2.1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="58" selection-start="404" selection-end="404" vertical-scroll-proportion="0.39772728" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/h5bp-mobile-boilerplate-05399c4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="114" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/base.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/reset.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="300" column="28" selection-start="7513" selection-end="7513" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/derby/lib/loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="3505" selection-end="3505" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="40" selection-start="1917" selection-end="1917" vertical-scroll-proportion="-13.269231">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/app/index.styl">
@@ -578,16 +488,100 @@
         <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/derby/node_modules/stylus/lib/nodes/node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="0" selection-start="2029" selection-end="2029" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="214" selection-end="214" vertical-scroll-proportion="0.34351146">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/everyauth/lib/promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="2" selection-start="401" selection-end="401" vertical-scroll-proportion="0.4909091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/everyauth/lib/modules/facebook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/derby/lib/View.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="11" selection-start="2513" selection-end="2513" vertical-scroll-proportion="0.3320158">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/derby/lib/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="0" selection-start="3505" selection-end="3505" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/authentication/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="9" selection-start="1725" selection-end="1725" vertical-scroll-proportion="-17.541666">
+        <state line="27" column="20" selection-start="1371" selection-end="1371" vertical-scroll-proportion="-16.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/app/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="52" selection-start="268" selection-end="268" vertical-scroll-proportion="0.24161074">
+        <state line="66" column="0" selection-start="1866" selection-end="1866" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="294" selection-end="294" vertical-scroll-proportion="3.4615386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/server/everyauth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="33" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.1538461">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/everyauth/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

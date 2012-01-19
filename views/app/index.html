@@ -29,6 +29,13 @@
 
   <meta http-equiv="cleartype" content="on">
 
+    <style>
+        body.connected #login { display: none; }
+        body.connected #logout { display: block; }
+        body.not_connected #login { display: block; }
+        body.not_connected #logout { display: none; }
+    </style>
+
 
 <Body:>
     {{> nav}}
@@ -75,6 +82,20 @@
     </footer>
   </div>
 
+<facebook:>
+    <div id="login">
+        <p><button onClick="loginUser();">Login</button></p>
+    </div>
+    <div id="logout">
+        <p><button  onClick="FB.logout();">Logout</button></p>
+    </div>
+
+    <script>
+        function loginUser() {
+            FB.login(function(response) { }, {scope:'email'});
+        }
+    </script>
+
 <Scripts:>
 
   <script src="/js/libs/modernizr-custom.js"></script>
@@ -90,4 +111,7 @@
   <script>
     MBP.scaleFix();
   </script>
+
+   <script src="http://static.ak.fbcdn.net/connect/en_US/core.js"></script>
+
 
