@@ -7,7 +7,7 @@
 <Head:>
     <meta name="google-site-verification" content="1pX1y8_R6cpukc3e2vGJWA06hbNWBJAWWgnFI9YY3d0" />
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width; height=device-height; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -16,6 +16,7 @@
 
     {{signinVisible > signin}}
     {{homeVisible > home}}
+    {{registerVisible > register}}
 
     <footer class="nav-footer">
     {{> nav}}
@@ -49,13 +50,13 @@
 
 <signin:>
     <article id="signin">
-        <section class="opening">
+        <section>
             <h1>Sign In</h1>
 
             <form action="post">
                 <input type="text" name="email" id="email" placeholder="Email" />
                 <input type="password" name="password" id="email" placeholder="Password" />
-                <button>Log In</button><a href="/register">Register</a>
+                <button type="submit">Log In</button><a href="/register" class="button">Register</a>
             </form>
         </section>
         <section class="social">
@@ -65,18 +66,15 @@
 
  <register:>
         <article id="register">
-            <section class="opening">
+            <section>
                 <h1>Register</h1>
 
                 <form action="post">
-                    <input type="text" name="name" id="email" placeholder="Full Name" />
-                    <input type="text" name="email" id="email" placeholder="Email" />
-                    <input type="password" name="password" id="email" placeholder="Password" />
-                    <button>Register New Account</button>
+                    <input type="text" name="name" id="name" placeholder="Full Name" />
+                    <input type="text" name="username" id="username" placeholder="Email" />
+                    <input type="password" name="password" id="password" placeholder="Password" />
+                    <button type="submit">Create Account</button>
                 </form>
-            </section>
-            <section class="social">
-                {{> social}}
             </section>
         </article>
 
@@ -91,8 +89,11 @@
   <script>Modernizr.mq('(min-width:0)') || document.write('<script src="/js/libs/respond.min.js">\x3C/script>')</script>
 
   <script src="/js/helper.js"></script>
-  <script>MBP.hideUrlBar()</script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>
+        MBP.hideUrlBar();
+        MBP.scaleFix();
+  </script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/0.6/zepto.min.js"></script>
   <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
    <script src="http://static.ak.fbcdn.net/connect/en_US/core.js"></script>
