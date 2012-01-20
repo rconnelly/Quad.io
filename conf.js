@@ -4,8 +4,8 @@ module.exports = {
       , appSecret: '8051dc57ff9f1bec7a2a2ede7c2055e4'
     }
   , twit: {
-        consumerKey: 'JLCGyLzuOK1BjnKPKGyQ'
-      , consumerSecret: 'GNqKfPqtzOcsCtFbGTMqinoATHvBcy1nzCTimeA9M0'
+        consumerKey: '0sgrBCqsdvZmYaJ5ot5uaA'
+      , consumerSecret: 'i28TltOH91L1OTJQJFu2CAZ0AGlP3yHPXkKs4Je5g'
     }
   , github: {
         appId: '11932f2b6d05d2a5fa18'
@@ -77,5 +77,8 @@ module.exports = {
   , skyrock: {
         consumerKey: 'a0ae943e20c5af88'
       , consumerSecret: 'cjucy86r0fg4uxx3'
+    }
+  , loggy: {
+        inputKey: '434abb1f-0a8a-4915-a927-05dd57c2aea2'
     }
 };

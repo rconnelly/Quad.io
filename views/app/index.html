@@ -7,9 +7,12 @@
 <Head:>
     <meta charset="utf-8"/>
     <title></title>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="viewport" content="width=device-width; height=device-height; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <meta name="google-site-verification" content="1pX1y8_R6cpukc3e2vGJWA06hbNWBJAWWgnFI9YY3d0" />
 
 <Body: lang="en">
 
@@ -54,18 +57,32 @@
             <form action="post">
                 <input type="text" name="email" id="email" placeholder="Email" />
                 <input type="password" name="password" id="email" placeholder="Password" />
-                <button>Log In</button>
+                <button>Log In</button><a href="/register">Register</a>
             </form>
         </section>
-        <section class="login">
-            {{> login}}
+        <section class="social">
+            {{> social}}
         </section>
     </article>
 
+ <register:>
+        <article id="register">
+            <section class="opening">
+                <h1>Register</h1>
 
-<login:>
+                <form action="post">
+                    <input type="text" name="name" id="email" placeholder="Full Name" />
+                    <input type="text" name="email" id="email" placeholder="Email" />
+                    <input type="password" name="password" id="email" placeholder="Password" />
+                    <button>Register New Account</button>
+                </form>
+            </section>
+            <section class="social">
+                {{> social}}
+            </section>
+        </article>
 
-    <h3>Or log in with</h3>
+<social:>
     <a href="/auth/facebook"><img src="img/facebook.png" alt="facebook">
     <a href="/auth/google"><img src="img/google.png" alt="google">
     <a href="/auth/twitter"><img src="img/twitter.png" alt="twitter">

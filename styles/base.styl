@@ -53,8 +53,8 @@ a img {border: 0;}
 	line-height: 46px;
 }
 
-body {
-	font: 16px/24px Georgia, serif;
+body, input, button {
+	font: 16px/24px "Georgia", serif;
 }
 
 .small, small {
@@ -88,12 +88,6 @@ body {
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
-
-.nav-footer {
-    font-size: 20px
-    padding: 20px 0
-}
-
 border-radius()
     -webkit-border-radius arguments
     -moz-border-radius arguments
@@ -112,31 +106,9 @@ box-shadow()
 highlight-color()
     -webkit-tap-highlight-color: arguments
 
-a.button {
-    display: block;
-    padding: 11px 15px;
-    border: 1px solid rgb(195,195,195);
-    color: rgb(60,97,158);
-    highlight-color(rgba(0,0,0, 0));
-    box-shadow(inset 0 0 5px rgba(0,0,0, 0.05));
-    border-radius(3px);
-    transition(all 0.123s ease-out);
-}
-
-a.button:hover, a.button:active {
-    text-decoration: none;
-    border-color: rgb(158,158,158);
-    box-shadow(inset 0 0 8px rgba(0,0,0, 0.38));
-}
-
-a.button:active, .touched {
-    background: rgb(60,97,158);
-    border-color: rgb(23,37,60);
-    color: rgb(232,241,255);
-    text-shadow: 0 -1px 0 rgba(0,0,0, 0.9);
-    box-shadow(inset 0 0 12px rgba(0,0,0, 0.765));
-    box-shadow(inset 0 0 12px rgba(0,0,0, 0.765));
-    box-shadow(inset 0 0 12px rgba(0,0,0, 0.765));
+.nav-footer
+{
+    font-size: 20px;
 }
 
 /*		Tablet Layout: 768px.
@@ -170,7 +142,6 @@ px      68    160    252    */
 	body {
 		width: 252px;
 		padding: 24px;
-        min-height: 432px;
 	}
 	
 }
