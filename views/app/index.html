@@ -89,10 +89,17 @@
   <script>Modernizr.mq('(min-width:0)') || document.write('<script src="/js/libs/respond.min.js">\x3C/script>')</script>
 
   <script src="/js/helper.js"></script>
-  <script>
+  <script src="http://static.ak.fbcdn.net/connect/en_US/core.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/0.7/zepto.min.js"></script>
+
+<Tail:>
+    <script>
         MBP.hideUrlBar();
         MBP.scaleFix();
-  </script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/0.6/zepto.min.js"></script>
-  <script src="http://static.ak.fbcdn.net/connect/en_US/core.js"></script>
+        Zepto('a[href]').each(function(){
+            var a = Zepto(this);
+            a.attr('link',a.attr('href'));
+            a.removeAttr('href');
+        });
+    </script>
 
