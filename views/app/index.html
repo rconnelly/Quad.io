@@ -97,5 +97,21 @@
         MBP.hideUrlBar();
         MBP.scaleFix();
 
+    (function($){
+        if($.os.iphone)
+        {
+            $('a[href]').tap(function(){
+                var a = Zepto(this);
+                a.attr('link',a.attr('href'));
+                a.removeAttr('href');
+            });
+
+            $('a[href]').tap(function(){
+                var a = Zepto(this);
+                a.attr('link',a.attr('href'));
+                a.removeAttr('href');
+            });
+        }
+    })(Zepto);
     </script>
 
