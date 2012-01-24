@@ -88,18 +88,14 @@
   <script src="/js/libs/modernizr-custom.js"></script>
   <script>Modernizr.mq('(min-width:0)') || document.write('<script src="/js/libs/respond.min.js">\x3C/script>')</script>
 
+  <script src="/js/helper.js"></script>
   <script src="http://static.ak.fbcdn.net/connect/en_US/core.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/0.7/zepto.min.js"></script>
 
 <Tail:>
     <script>
-        //MBP.hideUrlBar();
-        (function($){
-            $(document).ready(function()
-            {
-                window.scrollTo( 0, 1 );
-            });
-        })(Zepto);
+        MBP.hideUrlBar();
+        MBP.scaleFix();
     /*(function($){
         if($.os.iphone)
         {
