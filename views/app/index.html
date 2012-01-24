@@ -94,10 +94,10 @@
 
 <Tail:>
     <script>
-        MBP.hideUrlBar();
+       // MBP.hideUrlBar();
         MBP.scaleFix();
 
-    (function($){
+    /*(function($){
         if($.os.iphone)
         {
             $('a[href]').tap(function(){
@@ -113,5 +113,46 @@
             });
         }
     })(Zepto);
+    */
+
+        //hide bar on page load
+        setTimeout(function () {  window.scrollTo(0, 1);}, 500);
+
+        //attach event touchend
+        document.addEventListener(
+                'touchend',
+                function(e) {
+                    var target = e.target;
+                    while(target.nodeName !== 'A' && target.nodeName !== 'BODY') {
+                        target = target.parentNode;
+                    }
+                    if (target.nodeName === 'A' &&
+                            target.className === 'facebook') {
+                        target.href = '#!' + target.getAttribute('href');
+                    }
+                },
+                false
+        );
+
+        //attach event click
+        document.addEventListener(
+                'click',
+                function(e) {
+                    if (e.target.nodeName === 'A') {
+                        if (e.target.className === 'prevent') {
+                            e.preventDefault();
+                        } else if (e.target.className === 'facebook') {
+                            var href = e.target.getAttribute('href');
+                            if (href.indexOf('#!') === 0) {
+                                var newHref = href.substr(2);
+                                e.target.href = newHref;
+                                location.hash = newHref;
+                                e.preventDefault();
+                            }
+                        }
+                    }
+                },
+                false
+        );
     </script>
 
