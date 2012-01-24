@@ -108,8 +108,8 @@
 
             $('a[href]').bind('click',function(){
                 var a = Zepto(this);
-                a.attr('link',a.attr('href'));
-                a.removeAttr('href');
+                a.attr('href',a.attr('link'));
+                a.removeAttr('link');
             });
         }
     })(Zepto);
