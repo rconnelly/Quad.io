@@ -94,9 +94,12 @@
 <Tail:>
     <script>
         //MBP.hideUrlBar();
-        window.scrollTo( 0, 1 );
-
-
+        (function($){
+            $(document).ready(function()
+            {
+                window.scrollTo( 0, 1 );
+            });
+        })(Zepto);
     /*(function($){
         if($.os.iphone)
         {
