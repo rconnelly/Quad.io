@@ -106,7 +106,7 @@
                 a.removeAttr('href');
             });
 
-            $('a[href]').tap(function(){
+            $('a[href]').bind('click',function(){
                 var a = Zepto(this);
                 a.attr('link',a.attr('href'));
                 a.removeAttr('href');
