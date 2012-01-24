@@ -88,25 +88,21 @@
   <script src="/js/libs/modernizr-custom.js"></script>
   <script>Modernizr.mq('(min-width:0)') || document.write('<script src="/js/libs/respond.min.js">\x3C/script>')</script>
 
-  <script src="/js/helper.js"></script>
   <script src="http://static.ak.fbcdn.net/connect/en_US/core.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/0.7/zepto.min.js"></script>
 
 <Tail:>
     <script>
-        MBP.hideUrlBar();
-        MBP.scaleFix();
+        //MBP.hideUrlBar();
+        window.scrollTo( 0, 1 );
 
-    (function($){
+
+    /*(function($){
         if($.os.iphone)
         {
-            $('a[href]').tap(function(){
-                var a = Zepto(this);
-                a.attr('link',a.attr('href'));
-                a.removeAttr('href');
-                console.log(a);
-            });
+            $('a[href]').each(function(){
 
+            });
             $('a[href]').bind('click',function(){
                 var a = Zepto(this);
                 a.attr('href',a.attr('link'));
@@ -116,6 +112,7 @@
         }
     })(Zepto);
 
+     */
 
     </script>
 
