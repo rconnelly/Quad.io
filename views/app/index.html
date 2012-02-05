@@ -7,7 +7,7 @@
 <Head:>
     <meta name="google-site-verification" content="1pX1y8_R6cpukc3e2vGJWA06hbNWBJAWWgnFI9YY3d0" />
     <meta charset="utf-8"/>
-    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,height=device-height,width=device-width,user-scalable = no" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable = no" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -30,7 +30,7 @@
     {{#current}}
         <b>{{title}}</b>{{^last}} | {{/}}
     {{^}}
-        <a href={{url}}>{{title}}</a>{{^last}} | {{/}}
+        <a href={{url}}#>{{title}}</a>{{^last}} | {{/}}
     {{/}}
 
 <home:>
@@ -96,22 +96,4 @@
     <script>
         MBP.hideUrlBar();
         MBP.scaleFix();
-    /*(function($){
-        if($.os.iphone)
-        {
-            $('a[href]').each(function(){
-
-            });
-            $('a[href]').bind('click',function(){
-                var a = Zepto(this);
-                a.attr('href',a.attr('link'));
-                a.removeAttr('link');
-                console.log(a);
-            });
-        }
-    })(Zepto);
-
-     */
-
     </script>
-
