@@ -7,7 +7,7 @@
 <Head:>
     <meta name="google-site-verification" content="1pX1y8_R6cpukc3e2vGJWA06hbNWBJAWWgnFI9YY3d0" />
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable = no" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -34,7 +34,7 @@
     {{#current}}
         <b>{{title}}</b>{{^last}} | {{/}}
     {{^}}
-        <a href={{url}}>{{title}}</a>{{^last}} | {{/}}
+        <a href={{url}}#>{{title}}</a>{{^last}} | {{/}}
     {{/}}
 
 <home:>
@@ -93,10 +93,11 @@
   <script>Modernizr.mq('(min-width:0)') || document.write('<script src="/js/libs/respond.min.js">\x3C/script>')</script>
 
   <script src="/js/helper.js"></script>
-  <script>
+  <script src="http://static.ak.fbcdn.net/connect/en_US/core.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/0.7/zepto.min.js"></script>
+
+<Tail:>
+    <script>
         MBP.hideUrlBar();
         MBP.scaleFix();
-  </script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/0.6/zepto.min.js"></script>
-  <script src="http://static.ak.fbcdn.net/connect/en_US/core.js"></script>
-
+    </script>
