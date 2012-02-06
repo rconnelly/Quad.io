@@ -20,8 +20,12 @@
 
     <footer class="nav-footer">
     {{> nav}}
+    {{userFullName > welcomeMessage}}
     </footer>
 
+
+<welcomeMessage:>
+        | Welcome {{userFullName}}
 
 <nav:>
     {{pages > navitem}}
